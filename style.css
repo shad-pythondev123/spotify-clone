@@ -1,0 +1,242 @@
+
+
+
+
+.main-container{
+    display:flex;
+    flex:1;
+    background-color:grey;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    color:white;
+  
+
+}
+.side-bar{
+    flex:0.20;
+    background-color:black;
+    height:100%;
+   
+}
+.content-page{
+    flex:0.80;
+    height: 90vh;
+   
+    background-color:#161616;
+    overflow-y:scroll;
+   
+}
+::-webkit-scrollbar {
+   background-color:#161616;
+   width:10px;
+}
+::-webkit-scrollbar-thumb {
+   background-color: #535353;
+  
+   border-radius: 5px;
+}
+ul>li{
+    display:flex ;
+   
+}
+.logo{
+    padding: 20px;
+    width:180px;
+    margin-bottom: 15px;
+}
+.icons{
+    padding-left: 30px;
+    padding-bottom: 8px;
+    
+}
+.img-icon{
+    width: 1.3rem;
+    margin-right:18px;
+}
+.icon-text{
+   font-weight:600;
+    font-size: 12px;
+    color: azure;
+   
+}
+.list-items{
+    padding-bottom: 8px;
+}
+.bottom-section{
+    display:flex;
+    position:fixed;
+    background-color: #181818;
+    bottom:0;
+    width:100%;
+    height:60px;
+   
+    
+}
+.bot-img{
+   
+  
+    margin:5px;
+}
+.bot-word{
+    font-size: 10px;
+    color:#b3b3b3;
+}
+.heart{
+    margin: auto;
+    
+}
+.img-iconbot{
+    width: 1.3rem;
+    padding-right:5px;
+ 
+}
+.img-loop{
+    width:1.2rem;
+    padding-right:5px;
+}
+.play-icon{
+    width:1.9rem;
+    padding-right:5px;
+}
+.music-icons{
+    padding-left: 200px;
+}
+.bar{
+    width:40vw;
+    height:5px;
+    background-color:#535353;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.percent{
+    width:70%;
+    height:5px;
+    background-color:#c4c4c4;
+    border-radius: 5px;
+}
+.num{
+    font-size: 12px;
+    color:#c4c4c4;
+    margin-inline: 10px;
+    
+}
+.corner-icon{
+    margin-left: 60px;
+}
+.top-content{
+    transform: scale(0.8);
+}
+.main-header{
+     padding-inline:30px;
+     padding-top:18px;
+     padding-bottom:12px;
+
+    
+}
+.card-container{
+    background-color:#303030;
+    width:230px;
+    height:60px;
+    margin-inline:30px;
+    
+}
+.card-image{
+    width:22%;
+    height:100%;
+}
+.card-text{
+    font-weight:600;
+    font-size: 14px;
+    padding-left: 10px;
+    align-items: center;
+}
+.middle-header{
+    font-size: 20px;
+}
+.see{
+    font-size: 12px;
+    color:#b3b3b3;
+}
+.person-card{
+    background-color:#181818;
+    width:150px;
+    height:190px;
+    margin-left:30px;
+}
+.person-img{
+   width:75%;
+   margin-left:12%;
+   margin-top: 8%;
+   margin-bottom:15%;
+   
+}
+.img-small{
+    height:110px;
+}
+.person-name{
+    font-size: 15px;
+    padding-left:10px;
+   
+}
+.person-details{
+    font-size: 12px;
+    padding-left:10px;
+    color:#b3b3b3;
+}
+.icons:hover{
+    
+    background-color:#181818;
+    width:200px;
+    height:30px;
+    margin-left: 25px;
+    border-radius: 10px;
+
+}
+.person-card:hover{
+   background-color:#282828;
+}
+.card-container:hover{
+    background-color:#161616;
+}
+.main-header:hover{
+   text-decoration: underline;
+}
+.middle-header:hover{
+    text-decoration: underline;
+ }
+ .see:hover{
+    text-decoration: underline;
+ } 
+ @media (max-width: 768px) {
+    .side-bar{
+       display: none;
+    }
+    .content-page{
+       flex:1;
+       height: 100vh;
+    }
+    .complete{
+       
+       flex-direction: column;
+       
+    }
+    .card-container{
+        margin: 10px;
+    }
+    .scrl{
+        overflow-x: scroll;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .bottom-section{
+        display: none;
+    }
+    
+}
+@media (min-width:768px){
+    .large{
+        display: none;
+    }
+}
